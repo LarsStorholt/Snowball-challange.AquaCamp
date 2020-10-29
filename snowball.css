@@ -131,7 +131,7 @@ section:nth-child(4){
     background-image: url(4.jpg);
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 375px){
     section{
         position: relative;
         display: flex;
@@ -144,7 +144,7 @@ section:nth-child(4){
         background-color: #f4f4f4;
         background-image: url(1.png);
         background-size: cover;
-        scroll-snap-align:center;
+        scroll-snap-align: center;
     }
 
     section:nth-child(2){
