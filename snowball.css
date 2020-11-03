@@ -150,6 +150,7 @@ section{
 
 section:nth-child(2){
     background-image: url(2.png);
+    background-position: center;
 
 }
 
