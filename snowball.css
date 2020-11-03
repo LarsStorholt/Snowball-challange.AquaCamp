@@ -131,7 +131,7 @@ section{
 
 
 section h2 {
-    font-family: Calibri Light;
+    font-family: Calibri Light, sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
     padding: 0.5em 1em;
@@ -172,6 +172,20 @@ section:nth-child(5){
         /*background-image: url(1.png);*/
         background-size: cover;
         scroll-snap-align: center;
+    }
+    
+    section h2 {
+        font-family: Calibri Light, sans-serif;
+        font-size: 1.25rem;
+        font-weight: 900;
+        padding: 0.5em 1em;
+        color: #1d1e22;
+        background-color: white;
+        border-radius: 0.25em;
+        pointer-events: none;
+        user-select: none;
+        text-align: center;
+        margin-top: 50px;
     }
 
     section:nth-child(2){
