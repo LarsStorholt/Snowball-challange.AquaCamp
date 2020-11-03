@@ -211,7 +211,10 @@ section:nth-child(3){
     .tekstOmCampen{
         width: 100%;
     }
-
+    
+    .divBilder img{
+        width: 100%;
+    }
 
     
 }
