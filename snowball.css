@@ -55,7 +55,7 @@ body{
 
 .smooth{
     position: relative;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
     overflow-y: scroll;
 }
 
@@ -176,6 +176,7 @@ section:nth-child(3){
 
     section:nth-child(2){
         background-image: url(22.png);
+        background-position: top;
     }
 
     .header{
