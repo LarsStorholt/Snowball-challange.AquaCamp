@@ -10,7 +10,6 @@
 }
 
 .tekstOmCampen{
-
     width: 70%;
     box-shadow: 2px 2px 10px black;
     padding: 0 1vw 1vw 1vw;
@@ -18,7 +17,6 @@
 }
 
 
-   
 
 .divBilder{
     margin-top: 3vw;
@@ -26,10 +24,6 @@
     text-align: center;
 }
 
-.divBilder img{
-    size: 100%;
-
-}
 
 p, h1, em, li, ul{
     z-index: 2;
@@ -210,6 +204,10 @@ section:nth-child(3){
     .omCampen div{
         width: 100%;
     }
+ 
+    .divBilder img{
+        width: 100%;
     
+    }
 }
 
