@@ -143,6 +143,10 @@ section h2 {
 section:nth-child(2){
     background-image: url(2.png);
     background-position: center;
+    background-position: center top;
+    padding-top: 60px;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
 
 }
 
