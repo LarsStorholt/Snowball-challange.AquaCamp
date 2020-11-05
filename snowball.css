@@ -47,7 +47,7 @@ body{
     font-family: sans-serif;
     font-size: 62.5%;
     color: #f4f4f4;
-    background-color: #1d1e22;
+    background-color: #f4f4f4;
 }
 
 
@@ -67,6 +67,7 @@ body{
     min-height: 60px;
     font-size: 1rem;
     mix-blend-mode: normal;
+    background-color: #f4f4f4;
 }
 
 
@@ -78,6 +79,7 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
+    border-bottom: 3px black solid;
 }
 
 .header ul li{
@@ -158,6 +160,20 @@ section:nth-child(5){
     background-image: url(contact.jpg);
 }
 
+#Contact p {
+    font-family: Calibri Light, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 0.5em 1em;
+    color: #1d1e22;
+    background-color: white;
+    border-radius: 0.25em;
+    pointer-events: none;
+    user-select: none;
+    text-align: center;
+}
+
+
 
 @media only screen and (max-width: 650px){
     section{
@@ -194,6 +210,10 @@ section:nth-child(5){
         background-position: top;
     }
 
+    #omCampen h1 {
+        padding-top: 50px;
+    }
+
     .header{
         position: fixed;
         top: 0;
@@ -222,6 +242,11 @@ section:nth-child(5){
         margin: 0 0.3em;
         padding: 0.3em;
     }
+    
+    #omCampen h1 {
+    padding-top: 50px;
+}
+
 
     div{
         display: inline;
