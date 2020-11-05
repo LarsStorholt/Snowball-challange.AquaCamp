@@ -203,6 +203,7 @@ section:nth-child(5){
         min-height: 60px;
         font-size: 1rem;
         mix-blend-mode: normal;
+        align-items: center;
     }
     
     .header ul{
